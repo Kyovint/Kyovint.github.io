@@ -1,7 +1,12 @@
+import './App.css'
+import { Header } from './components/header/Header.jsx'
+import { About } from './components/about/About.jsx'
+
 export function App () {
-    return (
-        <div>
-            <h1>Hola Mundo</h1>
-        </div>
-    )
+  return (
+    <>
+      <Header />
+      <About />
+    </>
+  )
 }

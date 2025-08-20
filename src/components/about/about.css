@@ -1,0 +1,41 @@
+.about-section {
+  height: 90vh;
+  width: 80%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: transparent;
+  color: white;
+}
+
+.about-section .about-text {
+  width: 50%;
+  text-align: justify;
+  padding: 50px;
+}
+
+.about-section .about-image {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.potrait {
+  image-rendering: auto;
+  mask-image: linear-gradient(black 70%, transparent);
+}
+
+.about-text h1 {
+  font-size: 3.5rem;
+  font-weight: Bold;
+  margin-bottom: 0%;
+}
+
+.about-text h2 {
+  font-size: 1.7rem;
+  font-weight: lighter;
+}
