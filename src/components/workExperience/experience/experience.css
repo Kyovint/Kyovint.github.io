@@ -1,0 +1,21 @@
+.timeline-button {
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 1px solid #18808c;
+  border-bottom: 1px solid #18808c;
+}
+
+.timeline-button:hover {
+  background-color: #18808c;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.timeline-logo {
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+}

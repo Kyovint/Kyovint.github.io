@@ -11,6 +11,12 @@
   color: white;
 }
 
+@media (max-width: 768px) {
+  .about-section {
+    flex-direction: column;
+  }
+}
+
 .about-section .about-text {
   width: 50%;
   text-align: justify;

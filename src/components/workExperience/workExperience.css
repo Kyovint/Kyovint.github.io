@@ -1,5 +1,5 @@
 .we-section{
-  min-height: 70vh;
+  min-height: 100vh;
   width: 80%;
   padding-left: 10%;
   padding-right: 10%;
@@ -34,22 +34,6 @@
   transform: translateY(0);
 }
 
-.timeline-button {
-  background-color: transparent;
-  color: white;
-  cursor: pointer;
-  border-left: 0px;
-  border-right: 0px;
-  border-top: 1px solid #18808c;
-  border-bottom: 1px solid #18808c;
-}
-
-.timeline-button:hover {
-  background-color: #18808c;
-  color: white;
-  transition: background-color 0.3s ease;
-}
-
 
 .we-timeline-description {
   width: 50%;
@@ -65,7 +49,7 @@
 
 .we-description-image {
   width: 60%;
-  height: 30%;
+  height: 50%;
   object-fit: cover;
   border-radius: 10px;
   margin-top: 20px;
@@ -92,4 +76,12 @@
   object-fit: cover;
   border-radius: 50px;
   margin-bottom: 5px;
+}
+
+.company-description-p{
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
 }
