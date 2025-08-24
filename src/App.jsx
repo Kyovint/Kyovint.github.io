@@ -3,10 +3,6 @@ import { Header } from './components/header/Header.jsx'
 import { About } from './components/about/About.jsx'
 import { WorkExperience } from './components/workExperience/WorkExperience.jsx'
 
-import Swiper from 'swiper';
-import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
-
-
 export function App () {
   
   return (
