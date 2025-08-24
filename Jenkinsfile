@@ -9,7 +9,6 @@ pipeline {
         stage('📥 Checkout') {
             steps {
                 script {
-                    echo "🔹 Iniciando pipeline para la rama: ${BRANCH}"
                     echo "🔹 Commit actual: ${env.GIT_COMMIT}"
                 }
                 checkout scm  // Usa la configuración del SCM del job
