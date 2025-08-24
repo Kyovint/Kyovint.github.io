@@ -5,10 +5,6 @@ pipeline {
         }
     }
 
-    environment {
-        BRANCH = env.BRANCH_NAME
-    }
-
     stages {
         stage('📥 Checkout') {
             steps {
