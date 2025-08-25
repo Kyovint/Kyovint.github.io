@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Saludar') {
             steps {
-                saludar('Mapu')  // ✅ Llama a vars/saludar.groovy
+                helloworld('Mapu <3')
             }
         }
     }
